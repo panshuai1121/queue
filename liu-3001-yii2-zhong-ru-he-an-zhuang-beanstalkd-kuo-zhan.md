@@ -57,5 +57,9 @@ beanstalkd -l 127.0.0.1 -p 11300
 
 ### 五、进行测试
 
+```
+./yii hello（后边的这个是controller的名称）
+```
+
 
 
