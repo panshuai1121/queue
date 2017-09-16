@@ -16,6 +16,7 @@ brew install beanstalkd
 beanstalkd -l 10.0.1.5 -p 11300
 
 #如果需要开启持久化
+
 beanstalkd -l 0.0.0.0 -p 11300 -b /var/lib/beanstalkd/binlog
 ```
 
