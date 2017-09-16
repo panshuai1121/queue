@@ -31,5 +31,19 @@ $> composer update
         ],
 ```
 
+三、在confg 下的console.php 中添加
+
+```
+...
+'params' => $params,
+// add you controller with name and class name next to params.
+'controllerMap' => [
+        'worker'=>[
+            'class' => 'app\commands\WorkerController',
+        ]
+       
+    ],
+```
+
 
 
