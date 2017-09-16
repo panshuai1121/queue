@@ -27,9 +27,10 @@ ln -s /path/to/phpBeanstalkdAdmin/public /var/www/phpbeanstalkdadmin
 ### 二、下载好之后进行nginx 或 apache 配置
 
 ```
+server {
     listen       80;
-    server_name  xx.xx.com;
-    root     /var/www/phpBeanstalkdAdmin/public;
+    server_name  beans.list.com;
+    root         /var/www/phpBeanstalkdAdmin/public;
     location / {
          try_files $uri $uri/ /index.php?$args;
     }
@@ -39,8 +40,8 @@ ln -s /path/to/phpBeanstalkdAdmin/public /var/www/phpbeanstalkdadmin
         fastcgi_buffers 32 32k;
         try_files $uri = 404;
         fastcgi_split_path_info ^(.+\.php)(/.+)$;
-        fastcgi_pass    unix:/var/run/php/php7.0-fpm.sock;
-    #fastcgi_pass 127.0.0.1:9000;
+        #fastcgi_pass    unix:/var/run/php/php7.0-fpm.sock;
+	fastcgi_pass 127.0.0.1:9000;
         fastcgi_index   $index;
         fastcgi_param   SCRIPT_FILENAME $document_root$fastcgi_script_name;
         include         fastcgi_params;
