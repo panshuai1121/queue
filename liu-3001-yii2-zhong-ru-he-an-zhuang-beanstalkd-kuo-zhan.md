@@ -22,13 +22,17 @@ $> composer update
 ### 二、在组件的主配置文件和控制台配置文件中添加以内容
 
 ```
-'beanstalk'=>[
-            'class' => 'udokmeci\yii2beanstalk\Beanstalk',
-            'host'=> "127.0.0.1", // default host
-            'port'=>11300, //default port
-            'connectTimeout'=> 1,
-            'sleep' => false, // or int for usleep after every job 
-        ],
+'components' => [
+    // ...
+    'beanstalk' => [
+        'class' => 'udokmeci\yii2beanstalk\Beanstalk',
+        'host' => 127.0.0.1, // default host
+        'port' => 11300,
+        'connectTimeout' => 1,
+        'sleep' => false, // or int for usleep after every job
+    ],
+    // ...
+],
 ```
 
 ### 三、在confg 下的console.php 中添加
