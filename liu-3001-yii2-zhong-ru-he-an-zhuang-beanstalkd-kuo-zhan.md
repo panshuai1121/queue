@@ -2,7 +2,7 @@
 
 可以使用composer一条命令直接安装，但是为了更清晰，知道composer 安装在了哪里，用另外一种方式进行安装
 
-一、在项目目录的compser.json 文件中添加如下配置
+### 一、在项目目录的compser.json 文件中添加如下配置
 
 ```
 {
@@ -19,7 +19,7 @@
 $> composer update
 ```
 
-二、在组件的主配置文件和控制台配置文件中添加以内容
+### 二、在组件的主配置文件和控制台配置文件中添加以内容
 
 ```
 'beanstalk'=>[
@@ -31,7 +31,7 @@ $> composer update
         ],
 ```
 
-三、在confg 下的console.php 中添加
+### 三、在confg 下的console.php 中添加
 
 ```
 ...
@@ -41,7 +41,7 @@ $> composer update
         'worker'=>[
             'class' => 'app\commands\WorkerController',
         ]
-       
+
     ],
 ```
 
