@@ -7,4 +7,5 @@
 * [四、Beanstalkd适用的场景](si-3001-beanstalkd-shi-yong-de-chang-jing.md)
 * [五、Beanstalkd 安装使用](wu-3001-beanstalkd-an-zhuang-shi-yong.md)
 * [六、Yii2中如何安装Beanstalkd 扩展](liu-3001-yii2-zhong-ru-he-an-zhuang-beanstalkd-kuo-zhan.md)
+* [七、phpBeanstalkdAdmin](qi-3001-phpbeanstalkdadmin.md)
 
