@@ -10,7 +10,7 @@ Beanstalkd 用任务 \(job\) 代替消息 \(message\) 的概念，Job 是一个�
 
 与消息不同，job有一系列的状态
 
-
+![](http://ww2.sinaimg.cn/mw600/68c3cad3jw1dpsqabts9dj.jpg)
 
 
 
