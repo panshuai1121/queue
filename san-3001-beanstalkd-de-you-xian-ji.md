@@ -1,4 +1,4 @@
-# Beanstalked的优先级
+# Beanstalked的优先级（priority）
 
 
 
