@@ -8,5 +8,9 @@
 
 Beanstalkd 用任务 \(job\) 代替消息 \(message\) 的概念，Job 是一个需要异步处理的任务，**job 需要放在 tubo 中**
 
+与消息不同，job有一系列的状态
+
+
+
 
 
