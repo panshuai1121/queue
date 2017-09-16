@@ -8,13 +8,11 @@
 
 ## 安装方法
 
-下载phpBeanstalkdAdmin 代码 可以通过git的方式：
+下载phpBeanstalkdAdmin ，要求PHP version &gt;= 5.3 可以通过git的方式：
 
 ```
 git clone https://github.com/mnapoli/phpBeanstalkdAdmin.git
 ```
 
 如果没有使用git 可以通过 [http://mnapoli.fr/phpBeanstalkdAdmin/](http://mnapoli.fr/phpBeanstalkdAdmin/) 下载对应的安装包
-
-
 
