@@ -6,3 +6,7 @@
 
 ![](http://upload-images.jianshu.io/upload_images/26326-b79d0a8f193d342c.png?imageView2/2/w/1240/q/100)
 
+## 安装方法
+
+
+
