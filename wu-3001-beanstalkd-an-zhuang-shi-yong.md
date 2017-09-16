@@ -16,6 +16,8 @@ brew install beanstalkd
 beanstalkd -l 10.0.1.5 -p 11300
 ```
 
+**参数：**
+
 * `-b DIR`  输出 binlog 保持任务不丢失, DIR 指定路径
 * `-l ADDR`绑定的地址, 默认为 \(0.0.0.0\)
 * `-p PORT`绑定的端口, 默认为 \(11300\)
