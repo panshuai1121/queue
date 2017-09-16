@@ -8,5 +8,9 @@
 
 ## 安装方法
 
-http://mnapoli.fr/phpBeanstalkdAdmin/
+```
+git clone https://github.com/mnapoli/phpBeanstalkdAdmin.git
+```
+
+
 
