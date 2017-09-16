@@ -16,3 +16,11 @@ git clone https://github.com/mnapoli/phpBeanstalkdAdmin.git
 
 如果没有使用git 可以通过 [http://mnapoli.fr/phpBeanstalkdAdmin/](http://mnapoli.fr/phpBeanstalkdAdmin/) 下载对应的安装包
 
+另外 MAC OS 可以使用别名
+
+```
+ln -s /path/to/phpBeanstalkdAdmin/public /var/www/phpbeanstalkdadmin
+```
+
+
+
