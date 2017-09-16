@@ -29,7 +29,7 @@ ln -s /path/to/phpBeanstalkdAdmin/public /var/www/phpbeanstalkdadmin
 ```
 server {
     listen       80;
-    server_name  xx.xx.com;
+    server_name  xx.xx.com;
     root         /var/www/phpBeanstalkdAdmin/public;
     location / {
          try_files $uri $uri/ /index.php?$args;
