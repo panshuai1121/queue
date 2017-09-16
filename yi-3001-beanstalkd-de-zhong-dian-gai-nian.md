@@ -6,5 +6,7 @@
 
 ## Job（任务）
 
-Beanstalkd 用任务 \(job\) 代替消息 \(message\) 的概念。
+Beanstalkd 用任务 \(job\) 代替消息 \(message\) 的概念，Job 是一个需要异步处理的任务
+
+
 
