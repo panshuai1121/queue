@@ -24,3 +24,7 @@ Beanstalkd 用任务 \(job\) 代替消息 \(message\) 的概念，Job 是一个�
 
 任务job的生产者，通过put命令将一个job（任务） 放到一个tubo\(管道\)中。
 
+## consumer（消费者）
+
+
+
