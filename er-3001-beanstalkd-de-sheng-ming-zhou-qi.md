@@ -2,5 +2,7 @@
 
 ---
 
+![](https://cdn.itbilu.com/beanstalkd-job-status.png)
+
 
 
