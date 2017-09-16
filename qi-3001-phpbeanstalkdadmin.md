@@ -8,7 +8,9 @@
 
 ## 安装方法
 
-下载phpBeanstalkdAdmin ，要求PHP version &gt;= 5.3 可以通过git的方式：
+### 一、下载phpBeanstalkdAdmin 
+
+要求PHP version &gt;= 5.3 可以通过git的方式：
 
 ```
 git clone https://github.com/mnapoli/phpBeanstalkdAdmin.git
@@ -22,12 +24,13 @@ git clone https://github.com/mnapoli/phpBeanstalkdAdmin.git
 ln -s /path/to/phpBeanstalkdAdmin/public /var/www/phpbeanstalkdadmin
 ```
 
-下载好之后进行nginx 或 apache 配置
+### 二、下载好之后进行nginx 或 apache 配置
 
 ```
-server {
     listen       80;
-    server_name  xx.xx.com;
+    server_name  
+xx.
+xx.com;
     root         /var/www/phpBeanstalkdAdmin/public;
     location / {
          try_files $uri $uri/ /index.php?$args;
@@ -39,13 +42,17 @@ server {
         try_files $uri = 404;
         fastcgi_split_path_info ^(.+\.php)(/.+)$;
         fastcgi_pass    unix:/var/run/php/php7.0-fpm.sock;
-	#fastcgi_pass 127.0.0.1:9000;
+    #fastcgi_pass 127.0.0.1:9000;
         fastcgi_index   $index;
         fastcgi_param   SCRIPT_FILENAME $document_root$fastcgi_script_name;
         include         fastcgi_params;
     }
 }
 ```
+
+### 三、执行查看效果
+
+
 
 
 
