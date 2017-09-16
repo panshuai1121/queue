@@ -18,5 +18,9 @@ Beanstalkd 用任务 \(job\) 代替消息 \(message\) 的概念，Job 是一个�
 * **BURIED - 保留的任务: 任务不会被执行，也不会消失，除非有人把它 “踢” 回队列；**
 * **DELETED - 消息被彻底删除。Beanstalkd 不再维持这些消息。**
 
+## producer （生产者）
+
+
+
 
 
