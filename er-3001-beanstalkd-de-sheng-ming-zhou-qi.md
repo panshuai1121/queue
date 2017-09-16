@@ -8,7 +8,7 @@ job 代替了 message的概念，任务有一系列的状态，生命周期如�
 
 一个`Beanstalkd`任务可能会包含以下状态：
 
-* `READY`- 需要立即处理的任务。当`producer`直接`put`一个任务时，任务就处于`READY`状态，以等待`consumer`来处理。当延时 \(`DELAYED`\) 任务到期后会自动成为当前`READY`状态的任务
+* `READY（`**需要立即处理的任务**`）`- 需要立即处理的任务。当`producer`直接`put`一个任务时，任务就处于`READY`状态，以等待`consumer`来处理。当延时 \(`DELAYED`\) 任务到期后会自动成为当前`READY`状态的任务
 * `DELAYED`- 延迟执行的任务。当任务被延时`put`时，任务就处于`DELAYED`状态。等待时间过后，任务会被迁移到`READY`
   状态。当消费者处理任务后，可以用将消息再次放回`DELAYED`队列延迟执行
 * `RESERVED` 已经被消费者获取，正在执行的任务。当`consumer`获取了当前`READY`的任务后，该任务的状态就会到`RESERVED`
