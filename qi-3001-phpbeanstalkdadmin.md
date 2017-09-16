@@ -8,7 +8,7 @@
 
 ## 安装方法
 
-### 一、下载phpBeanstalkdAdmin 
+### 一、下载phpBeanstalkdAdmin
 
 要求PHP version &gt;= 5.3 可以通过git的方式：
 
@@ -52,7 +52,5 @@ xx.com;
 
 ### 三、执行查看效果
 
-
-
-
+访问：[http://localhost/phpbeanstalkdadmin/](http://localhost/phpbeanstalkdadmin/) localhost为配置的域名
 
