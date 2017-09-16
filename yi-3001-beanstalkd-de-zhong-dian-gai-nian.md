@@ -12,11 +12,11 @@ Beanstalkd 用任务 \(job\) 代替消息 \(message\) 的概念，Job 是一个�
 
 ![](http://ww2.sinaimg.cn/mw600/68c3cad3jw1dpsqabts9dj.jpg)
 
-* READY - 需要立即处理的任务，当延时 \(DELAYED\) 任务到期后会自动成为当前任务；
-* DELAYED - 延迟执行的任务, 当消费者处理任务后, 可以用将消息再次放回 DELAYED 队列延迟执行；
-* RESERVED - 已经被消费者获取, 正在执行的任务。Beanstalkd 负责检查任务是否在 TTR\(time-to-run\) 内完成；
-* BURIED - 保留的任务: 任务不会被执行，也不会消失，除非有人把它 “踢” 回队列；
-* DELETED - 消息被彻底删除。Beanstalkd 不再维持这些消息。
+* **READY - 需要立即处理的任务，当延时 \(DELAYED\) 任务到期后会自动成为当前任务；**
+* **DELAYED - 延迟执行的任务, 当消费者处理任务后, 可以用将消息再次放回 DELAYED 队列延迟执行；**
+* **RESERVED - 已经被消费者获取, 正在执行的任务。Beanstalkd 负责检查任务是否在 TTR\(time-to-run\) 内完成；**
+* **BURIED - 保留的任务: 任务不会被执行，也不会消失，除非有人把它 “踢” 回队列；**
+* **DELETED - 消息被彻底删除。Beanstalkd 不再维持这些消息。**
 
 
 
